@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teahouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/5f47d54249.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-100">
+    <header class="mx-10">
+        <nav class="grid grid-cols-2 justify-between bg-slate-100 w-auto h-16">
+            <div class="w-20 h-16">
+                <img src="images/teahoselogo.png" alt="" class="">
+            </div>
+          <div class="grid gap-3 grid-cols-2 justify-evenly items-center">  
+                <div class="hidden lg:flex items-center font-bold">
+                    <a href="#" class="px-2">Home</a>
+                    <a href="#" class="px-2">Products</a>
+                    <a href="#" class="px-2">Blog</a>
+                    <a href="#" class="px-2">Contact</a>
+                </div>
+                <div class="mr-0.5 lg:hidden">    
+                    <i class="fa-solid fa-bars bg-slate-100 w-5"></i>
+                </div>
+          </div>  
+        </nav>
+    </header>
+    <section class=" mt-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div class="w-auto px-32">
+                <h2 class="w-auto text-5xl font-bold">It's good <br> tea time at The<br>Tea House</h2>
+                <p class="mt-12 font-bold bg-orange-100">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <button class="bg-orange-200 font-bold text-2xl text-orange-600 px-3 py-3 rounded-lg mt-12">Explore Now  <i class="fa-solid fa-arrow-up-right-dots"></i></button>
+            </div>
+            <div class="relative">
+                <div class="">
+                    <img src="images/banner.png" alt="">
+                </div>
+                <div class="absolute ml-[100px] -mt-[110px] flex w-56 h-[90px] bg-orange-200 rounded-2xl px-4 py-4">
+                    <div class="text-orange-600 text-4xl py-2">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="w-auto h-4">
+                        <h4 class="text-2xl font-bold">5.00</h4>
+                        <p class="font-semibold">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
